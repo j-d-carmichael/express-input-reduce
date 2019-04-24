@@ -2,6 +2,8 @@
 Using https://www.npmjs.com/package/object-reduce-by-map strip input to only the items you want.
 This allow you to safely use the contents of body and query directly.
 
+[![Build Status](https://travis-ci.org/johndcarmichael/express-input-reduce.svg?branch=master)](https://travis-ci.org/johndcarmichael/express-input-reduce) | [![Dependencies](https://david-dm.org/johndcarmichael/express-input-reduce.svg)](https://david-dm.org/johndcarmichael/express-input-reduce) | [![License](http://img.shields.io/npm/l/express-input-reduce.svg)](https://github.com/johndcarmichael/express-input-reduce/blob/master/LICENSE)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
