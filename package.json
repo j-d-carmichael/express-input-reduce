@@ -1,0 +1,35 @@
+{
+  "name": "express-input-reduce",
+  "version": "1.0.0",
+  "description": "Reduce req body and query by a simple map",
+  "main": "src/middleware.js",
+  "scripts": {
+    "build:readme:toc": "node ./node_modules/doctoc/doctoc.js .",
+    "lint": "eslint ./src",
+    "test": "jest",
+    "prepublish": "npm run build:readme:toc && npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndcarmichael/express-input-reduce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johndcarmichael/express-input-reduce/issues"
+  },
+  "homepage": "https://github.com/johndcarmichael/express-input-reduce#readme",
+  "dependencies": {
+    "object-reduce-by-map": "^1.0.1"
+  },
+  "devDependencies": {
+    "doctoc": "^1.4.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.7.1"
+  }
+}
