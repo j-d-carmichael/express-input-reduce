@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/johndcarmichael/express-input-reduce#readme",
   "dependencies": {
-    "object-reduce-by-map": "^1.0.1"
+    "object-reduce-by-map": "^1.0.3"
   },
   "devDependencies": {
     "doctoc": "^1.4.0",
