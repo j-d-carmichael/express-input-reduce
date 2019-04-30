@@ -1,26 +1,26 @@
 {
   "name": "express-input-reduce",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reduce req body and query by a simple map",
   "main": "src/middleware.js",
   "scripts": {
     "build:readme:toc": "node ./node_modules/doctoc/doctoc.js .",
     "lint": "eslint ./src",
     "test": "jest",
-    "prepublish": "npm run build:readme:toc && npm run lint && npm run test"
+    "prepare": "npm run build:readme:toc && npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johndcarmichael/express-input-reduce.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "John D Carmichael",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/johndcarmichael/express-input-reduce/issues"
   },
   "homepage": "https://github.com/johndcarmichael/express-input-reduce#readme",
   "dependencies": {
-    "object-reduce-by-map": "^1.0.3"
+    "object-reduce-by-map": "^1.2.0"
   },
   "devDependencies": {
     "doctoc": "^1.4.0",
