@@ -1,6 +1,6 @@
 {
   "name": "express-input-reduce",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "Reduce req body and query by a simple map",
   "main": "src/middleware.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/johndcarmichael/express-input-reduce#readme",
   "dependencies": {
-    "object-reduce-by-map": "^1.3.0"
+    "object-reduce-by-map": "^1.2.0"
   },
   "devDependencies": {
     "doctoc": "^1.4.0",
